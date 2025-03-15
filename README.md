@@ -8,6 +8,10 @@ Updates
 
 This repo is for restoring or recovering your device.
 
+## 前置安装条件
+参考 https://github.com/dragonpilot-community/dragonpilot_wiki/blob/master/cn/how_to_flash_openpilot_on_windows.md
+一直看到“下载运行一键安装脚本”之前
+
 Restoring on macOS & Linux
 ------
 
