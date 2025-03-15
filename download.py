@@ -51,12 +51,12 @@ if __name__ == "__main__":
 
   args = parser.parse_args()
 
-  manifest = MASTER_MANIFEST if args.master else RELEASE_MANIFEST
+  manifest = MASTER_MANIFEST
 
   r = urlopen(manifest)
 
   up = json.loads(r.read().decode())
-  download(up['recovery_url'], up['recovery_hash'], "recovery.img")
+  # download(up['recovery_url'], up['recovery_hash'], "recovery.img")
   download(up['ota_url'], up['ota_hash'], "ota-signed-latest.zip")
 
   with zipfile.ZipFile("ota-signed-latest.zip", 'r') as z:
