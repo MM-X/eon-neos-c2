@@ -2,6 +2,7 @@ NEOS
 ======
 
 NEOS is the operating system for your C2.
+【1+3t刷openpilot教程（c2，NEOS20）】 https://www.bilibili.com/video/BV1dnQhYnEZT/?share_source=copy_web&vd_source=25cfc82384a4467c4092b69e7f853bfd
 
 Updates
 ------
